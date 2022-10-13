@@ -16,6 +16,7 @@ import traveljournal from "./projectSvgs/traveljournal.png";
 import airbnbapp from "./projectSvgs/airbnbapp.png";
 import quizzical from "./projectSvgs/quizzicalapp.png";
 import memeapp from "./projectSvgs/memeapp.png";
+import tenziesapp from "./projectSvgs/tenziesapp.png";
 
 export const ProjectList = [
   {
@@ -67,12 +68,30 @@ export const ProjectList = [
     skills: ["HTML", "CSS", "JavaScript", "BootStrap"],
   },
   {
+    id: 9,
+    title: "Meme Generator",
+    coverImgUrl: memeapp,
+    projectUrl: "https://memegeneratordaiveed.netlify.app/",
+    description:
+      "Generate fun meme images and customize them to make funny memes",
+    skills: ["React", "HTML", "CSS", "JavaScript"],
+  },
+  {
     id: 5,
     title: "BlackJack Game",
     coverImgUrl: blackjackapp,
     projectUrl: "https://blackjackdaiveed.netlify.app/",
     description: "A mini and very interactive BlackJack (21) game",
     skills: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    id: 10,
+    title: "Tenzies",
+    coverImgUrl: tenziesapp,
+    projectUrl: "https://tenziesdaiveed.netlify.app/",
+    description:
+      "Play a fun game of tenzies. How fast can you freeze all your dice?",
+    skills: ["React", "HTML", "CSS", "JavaScript"],
   },
   {
     id: 6,
@@ -88,15 +107,6 @@ export const ProjectList = [
     coverImgUrl: traveljournal,
     projectUrl: "https://traveljournaldaiveed.netlify.app/",
     description: "A Travel Journal Website",
-    skills: ["React", "HTML", "CSS", "JavaScript"],
-  },
-  {
-    id: 9,
-    title: "Meme Generator",
-    coverImgUrl: memeapp,
-    projectUrl: "https://memegeneratordaiveed.netlify.app/",
-    description:
-      "Generate fun meme images and customize them to make funny memes",
     skills: ["React", "HTML", "CSS", "JavaScript"],
   },
 ];
