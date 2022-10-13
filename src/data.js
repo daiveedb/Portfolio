@@ -5,6 +5,7 @@ import teamwork from "./projectSvgs/teamwork.svg";
 import collaboration from "./projectSvgs/collaboration.svg";
 import collaboration2 from "./projectSvgs/collaboration2.svg";
 import critical from "./projectSvgs/critical.svg";
+import javascriptsvg from "./projectSvgs/javascriptsvg.svg";
 
 import netflixapp from "./projectSvgs/netflixapp.png";
 import coffeejunkieapp from "./projectSvgs/coffeejunkieapp.png";
@@ -104,7 +105,7 @@ export const ProjectSkills = [
   {
     id: 4,
     skill: "JavaScript",
-    img: htmlcss,
+    img: javascriptsvg,
   },
   {
     id: 5,
