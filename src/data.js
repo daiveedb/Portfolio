@@ -15,6 +15,7 @@ import blackjackapp from "./projectSvgs/blackjackapp.png";
 import traveljournal from "./projectSvgs/traveljournal.png";
 import airbnbapp from "./projectSvgs/airbnbapp.png";
 import quizzical from "./projectSvgs/quizzicalapp.png";
+import memeapp from "./projectSvgs/memeapp.png";
 
 export const ProjectList = [
   {
@@ -87,6 +88,15 @@ export const ProjectList = [
     coverImgUrl: traveljournal,
     projectUrl: "https://traveljournaldaiveed.netlify.app/",
     description: "A Travel Journal Website",
+    skills: ["React", "HTML", "CSS", "JavaScript"],
+  },
+  {
+    id: 9,
+    title: "Meme Generator",
+    coverImgUrl: memeapp,
+    projectUrl: "https://memegeneratordaiveed.netlify.app/",
+    description:
+      "Generate fun meme images and customize them to make funny memes",
     skills: ["React", "HTML", "CSS", "JavaScript"],
   },
 ];
