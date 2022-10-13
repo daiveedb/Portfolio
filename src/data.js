@@ -17,6 +17,7 @@ import airbnbapp from "./projectSvgs/airbnbapp.png";
 import quizzical from "./projectSvgs/quizzicalapp.png";
 import memeapp from "./projectSvgs/memeapp.png";
 import tenziesapp from "./projectSvgs/tenziesapp.png";
+import notesapp from "./projectSvgs/notesapp.png";
 
 export const ProjectList = [
   {
@@ -74,6 +75,14 @@ export const ProjectList = [
     projectUrl: "https://memegeneratordaiveed.netlify.app/",
     description:
       "Generate fun meme images and customize them to make funny memes",
+    skills: ["React", "HTML", "CSS", "JavaScript"],
+  },
+  {
+    id: 11,
+    title: "Notes",
+    coverImgUrl: notesapp,
+    projectUrl: "https://notesappdaiveed.netlify.app/",
+    description: "An app for creating and storing quick notes",
     skills: ["React", "HTML", "CSS", "JavaScript"],
   },
   {
