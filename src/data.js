@@ -13,6 +13,7 @@ import bootcampapp from "./projectSvgs/bootcampapp.png";
 import blackjackapp from "./projectSvgs/blackjackapp.png";
 import traveljournal from "./projectSvgs/traveljournal.png";
 import airbnbapp from "./projectSvgs/airbnbapp.png";
+import quizzical from "./projectSvgs/quizzicalapp.png";
 
 export const ProjectList = [
   {
@@ -30,6 +31,14 @@ export const ProjectList = [
       "Firebase",
       "React-Router",
     ],
+  },
+  {
+    id: 8,
+    title: "Quizzical",
+    coverImgUrl: quizzical,
+    projectUrl: "https://quizzicaldaiveed.netlify.app/",
+    description: "Test your general knowledge with this interactive quiz app!",
+    skills: ["React", "HTML", "CSS", "JavaScript"],
   },
   {
     id: 2,
