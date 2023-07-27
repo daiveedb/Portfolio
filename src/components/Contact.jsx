@@ -9,7 +9,8 @@ import {
 } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
-import CV from "../davidCv.pdf";
+import CV from '../DavidBajomoResume.pdf'
+
 
 const Contact = () => {
   const [name, setName] = React.useState("");
@@ -139,7 +140,7 @@ const Contact = () => {
                 <a href={CV}>
                   <button
                     type="button"
-                    className="h-full py-2 px-4 text-sm font-medium text-gray-900 bg-[#B8EBD0] transition rounded-l-lg border border-none border-r-[#1f1f38] hover:bg-[#2c2c6c] hover:text-white transition-all"
+                    className="h-full py-2 px-4 text-sm font-medium text-gray-900 bg-[#B8EBD0] rounded-l-lg border border-none border-r-[#1f1f38] hover:bg-[#2c2c6c] hover:text-white transition-all"
                   >
                     View CV
                   </button>
@@ -147,7 +148,7 @@ const Contact = () => {
                 <a href={CV} download>
                   <button
                     type="button"
-                    className="h-full py-2 px-4 text-base font-medium text-gray-900 bg-[#B8EBD0] transition rounded-r-lg  hover:bg-[#2c2c6c] hover:text-white transition-all"
+                    className="h-full py-2 px-4 text-base font-medium text-gray-900 bg-[#B8EBD0] rounded-r-lg  hover:bg-[#2c2c6c] hover:text-white transition-all"
                   >
                     <FaDownload />
                   </button>

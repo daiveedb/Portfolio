@@ -18,8 +18,25 @@ import quizzical from "./projectSvgs/quizzicalapp.png";
 import memeapp from "./projectSvgs/memeapp.png";
 import tenziesapp from "./projectSvgs/tenziesapp.png";
 import notesapp from "./projectSvgs/notesapp.png";
+import cloudnine from './projectSvgs/cloudNineScrsht.png'
 
 export const ProjectList = [
+  {
+    id: 12,
+    title: "Cloud Nine",
+    coverImgUrl: cloudnine,
+    projectUrl: "https://cloudnineweatherapp.netlify.app/",
+    description: "A wether app with live weather data from 40 major cities around the world",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Tailwind",
+      "Lottie-react",
+      "React-Router",
+    ],
+  },
   {
     id: 1,
     title: "Netflix Clone",
