@@ -30,7 +30,7 @@ const Project = ({ item }) => {
               Live Demo
             </button>
           </a>
-          <a href="">
+          <a href={item.github}>
             <button className="w-[90px] lg:w-[max] py-2 px-2 transition-all hover:bg-[rgba(0,0,0,0.8)]  border rounded flex gap-1 justify-center items-center border-white text-white text-xs font-medium">
               Github <FaGithub />
             </button>
