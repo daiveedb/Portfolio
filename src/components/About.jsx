@@ -26,10 +26,8 @@ const About = () => {
               his work.
             </p>
             <p className="lg:text-base tracking-wide text-sm text-[#2c2c6c] mb-3 ">
-              Sadly, I am yet to gain any professional experience so I spend
-              most of my time building fun and exciting web applications-like
-              the ones you saw earlier-for potential/imaginary clients. Although
-              I am ready for professional experience, I understand that learning
+              I've worked as a freelancer and as an integral part of many teams in building slick websites and applications, however,
+              I understand that learning
               never truly ends so when I am not building web apps or watching
               football, I spend my time learning new things to adapt and keep up
               to the ever changing world of Technology. New Languages,
